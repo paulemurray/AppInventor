@@ -10,6 +10,6 @@ public class LeftButton : MonoBehaviour {
 	}
 
 	void OnMouseExit(){
-		PlayerController.direction += 1;
+		PlayerController.direction = 0;
 	}
 }

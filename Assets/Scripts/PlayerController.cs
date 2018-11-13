@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 		}
 		PlayerBody.transform.Translate(direction* speed, 0, 0);
 
-		if (PlayerBody.transform.position.x == -3.0f || PlayerBody.transform.position.x == 3.0f){
+		if (PlayerBody.transform.position.x <= -3.0f || PlayerBody.transform.position.x >= 3.0f){
 				direction = 0;
 		} 
 	}
