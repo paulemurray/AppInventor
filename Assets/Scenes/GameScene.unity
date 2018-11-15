@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hazard: {fileID: 571179105}
-  spawnValues: {x: 3, y: 8, z: 0}
+  spawnValues: {x: 3, y: 6, z: 0}
   hazardCount: 3
   spawnWait: 2
   startWait: 1
