@@ -8,9 +8,9 @@ public class bulletController : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
 		if (other.gameObject != boundary){
-			Destroy(other.gameObject);
-        	GameObject.Find("PlayerSprite").GetComponent<PlayerController>().EnemyKilled();
-			Destroy(this.gameObject);
+				Destroy(other.gameObject);
+        GameObject.Find("PlayerSprite").GetComponent<PlayerController>().EnemyKilled();
+				Destroy(this.gameObject);
 		}
     }
 }

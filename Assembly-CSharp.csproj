@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoundaryScript.cs" />
      <Compile Include="Assets\Scripts\bulletController.cs" />
+     <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\LeftButton.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />

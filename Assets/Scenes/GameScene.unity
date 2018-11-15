@@ -303,7 +303,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 510585078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3, y: -4.5, z: 0.40617007}
+  m_LocalPosition: {x: 2.3, y: -4.5, z: 1}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -839,6 +839,7 @@ MonoBehaviour:
   spawnWait: 2
   startWait: 1
   waveWait: 10
+  gravity: 0.05
 --- !u!1 &1883810555
 GameObject:
   m_ObjectHideFlags: 0

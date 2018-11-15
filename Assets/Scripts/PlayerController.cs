@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 	public int points;
+	public static int lives = 3;
 	public Rigidbody2D bulletPrefab;
 	public Rigidbody2D PlayerBody;
 	public static int direction;
@@ -13,7 +14,8 @@ public class PlayerController : MonoBehaviour
 	// Called when an enemy is destroyed, counts points
 	public void EnemyKilled() {
 		points++;
-		Debug.Log(points);
+		Debug.Log("Score: " + points);
+		EnemyController.bWasShot = true;
 	}
 
 	void Update() {
