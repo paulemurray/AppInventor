@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StatsScreenSwitch : MonoBehaviour {
 
-	// Use this for initialization
+	//when button is pressed load statistics screen
 	void OnMouseEnter(){
 		SceneManager.LoadScene("StatScene");
 	}

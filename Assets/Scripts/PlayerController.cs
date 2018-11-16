@@ -15,15 +15,13 @@ public class PlayerController : MonoBehaviour
 	public void EnemyKilled() {
 		points++;
 		Debug.Log("Score: " + points);
-		EnemyController.bWasShot = true;
 	}
-
+	//called every frame
 	void Update() {
-		if (Input.GetButtonDown("Jump")) {
-			Fire();
-		}
+		//moves player by given direction, diretion modified by button scripts
 		PlayerBody.transform.Translate(direction* speed, 0, 0);
 
+		//checks if the player is on the edges and stops movement
 		if (PlayerBody.transform.position.x <= -3.0f || PlayerBody.transform.position.x >= 3.0f){
 				direction = 0;
 		} 

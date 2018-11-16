@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RightButton : MonoBehaviour {
 
-	// Use this for initialization
+	//when button is pressed increase player direction, when release set back to 0
 	void OnMouseEnter(){
 		PlayerController.direction += 1;
 	}

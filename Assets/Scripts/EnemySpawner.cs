@@ -11,11 +11,13 @@ public class EnemySpawner : MonoBehaviour
     public float waveWait;
     public float gravity = 0.05f;
 
+    //called at the beginning of the game, activates SpawnRoutines
     void Start ()
     {
        StartCoroutine (SpawnWaves ());
     }
 
+    //loops to hazardCount, spaawn an many enemies as defined in hazardCount per wave, spawns a wave every waveWait seconds
     IEnumerator SpawnWaves ()
     {
         yield return new WaitForSeconds (startWait);
@@ -31,6 +33,7 @@ public class EnemySpawner : MonoBehaviour
             }
             yield return new WaitForSeconds (waveWait);
 
+            //prints enemies spawned and how fast they are going
             hazardCount += Random.Range(1,3);
             Debug.Log("Enemy Count: " + hazardCount);
 

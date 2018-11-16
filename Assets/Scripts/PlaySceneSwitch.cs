@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class PlaySceneSwitch : MonoBehaviour {
 
-	// Use this for initialization
+	//when the button is pressed, load the game
 	void OnMouseEnter(){
 		SceneManager.LoadScene("GameScene");
 	}

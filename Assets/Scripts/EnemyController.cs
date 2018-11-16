@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour {
 	public static bool bWasShot = false;
 	//Called when destroyed
-	void OnDestroy() {
+	void Update() {
 		if (!bWasShot){
 			PlayerController.lives--;
 			Debug.Log("Lives:" + PlayerController.lives);
