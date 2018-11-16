@@ -4,7 +4,7 @@ using UnityEngine;
 // A behaviour that is attached to a playable
 public class PlayerController : MonoBehaviour
 {
-	public int points;
+	public static int points;
 	public static int lives = 3;
 	public Rigidbody2D bulletPrefab;
 	public Rigidbody2D PlayerBody;
