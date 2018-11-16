@@ -216,7 +216,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.7990963, y: -0.5262337, z: 9.794046, w: 2.3542418}
+  m_margin: {x: 3.7990963, y: -0.5262337, z: 9.794046, w: 3.3250413}
   m_textInfo:
     textComponent: {fileID: 333364515}
     characterCount: 23
@@ -668,7 +668,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1

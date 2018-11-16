@@ -6,6 +6,6 @@ public class PlaySceneSwitch : MonoBehaviour {
 
 	// Use this for initialization
 	void OnMouseEnter(){
-		Application.LoadLevel("GameScene");
+		SceneManager.LoadScene("GameScene");
 	}
 }

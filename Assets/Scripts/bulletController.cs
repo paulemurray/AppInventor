@@ -9,7 +9,7 @@ public class bulletController : MonoBehaviour {
     {
 		if (other.gameObject != boundary){
 			Destroy(other.gameObject);
-        	GameObject.Find("PlayerSprite").GetComponent<PlayerController>().EnemyKilled();
+      GameObject.Find("PlayerSprite").GetComponent<PlayerController>().EnemyKilled();
 			Destroy(this.gameObject);
 		}
     }

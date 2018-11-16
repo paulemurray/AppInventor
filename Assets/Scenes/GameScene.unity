@@ -270,7 +270,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e704de23351664b1d8e867fe16417ab8, type: 2}
+=======
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> paul/master
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -308,7 +312,11 @@ Transform:
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 6
+>>>>>>> paul/master
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &510585078
 GameObject:
@@ -368,7 +376,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e704de23351664b1d8e867fe16417ab8, type: 2}
+=======
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> paul/master
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -406,7 +418,11 @@ Transform:
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 5
+>>>>>>> paul/master
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -698,12 +714,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 802839501}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> paul/master
   m_LocalPosition: {x: -0.64, y: -11.37, z: 0}
   m_LocalScale: {x: 0.1, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
+=======
+  m_RootOrder: 4
+>>>>>>> paul/master
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &802839505
 BoxCollider2D:
@@ -830,6 +854,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7afacd007bef98841ac2aa696c6e3011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  points: 0
+>>>>>>> paul/master
   bulletPrefab: {fileID: 802839502}
   PlayerBody: {fileID: 871004230}
   bulletSpeed: 25
@@ -890,7 +918,11 @@ Transform:
   m_GameObject: {fileID: 932651944}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 7, y: 14, z: 1}
+=======
+  m_LocalScale: {x: 7, y: 11, z: 1}
+>>>>>>> paul/master
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -937,6 +969,7 @@ MonoBehaviour:
   spawnWait: 2
   startWait: 1
   waveWait: 10
+<<<<<<< HEAD
 --- !u!1 &979722738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,6 +1109,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  gravity: 0.05
+>>>>>>> paul/master
 --- !u!1 &1883810555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,7 +1170,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
+<<<<<<< HEAD
   - {fileID: 2100000, guid: e704de23351664b1d8e867fe16417ab8, type: 2}
+=======
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+>>>>>>> paul/master
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1172,5 +1212,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 7
+>>>>>>> paul/master
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
