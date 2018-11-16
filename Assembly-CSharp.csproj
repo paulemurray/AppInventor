@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\LeftButton.cs" />
      <Compile Include="Assets\Scripts\lifeCounter.cs" />
+     <Compile Include="Assets\Scripts\MenuSceneScript.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlaySceneSwitch.cs" />
      <Compile Include="Assets\Scripts\RightButton.cs" />

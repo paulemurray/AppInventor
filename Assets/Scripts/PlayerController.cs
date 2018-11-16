@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // A behaviour that is attached to a playable
 public class PlayerController : MonoBehaviour
@@ -11,6 +12,12 @@ public class PlayerController : MonoBehaviour
 	public static int direction;
 	public float bulletSpeed;
 	float speed = 0.1f;
+	
+	//called when loaded, resets variables
+	void OnStart(){
+		points = 0;
+		lives = 3;
+	}
 	// Called when an enemy is destroyed, counts points
 	public void EnemyKilled() {
 		points++;
@@ -25,6 +32,11 @@ public class PlayerController : MonoBehaviour
 		if (PlayerBody.transform.position.x <= -3.0f || PlayerBody.transform.position.x >= 3.0f){
 				direction = 0;
 		} 
+
+		//checks if lives is below zero, goes to game over screen
+		if (lives <= 0){
+			SceneManager.LoadScene("GameOverScene");
+		}
 	}
 	//fires projectile
 	public void Fire() {
