@@ -534,6 +534,7 @@ GameObject:
   - component: {fileID: 1079759155}
   - component: {fileID: 1079759154}
   - component: {fileID: 1079759153}
+  - component: {fileID: 1079759157}
   m_Layer: 0
   m_Name: BackButton
   m_TagString: Untagged
@@ -603,13 +604,24 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1079759152}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -4, z: -9.90869}
+  m_LocalPosition: {x: 0, y: -4.1, z: 0}
   m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_Children:
   - {fileID: 677035313}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &1079759157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1079759152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99012ce3bf61d464682936983ac84233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2070880209
 GameObject:
   m_ObjectHideFlags: 0
